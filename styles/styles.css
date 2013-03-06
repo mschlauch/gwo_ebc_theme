@@ -1,0 +1,279 @@
+/* $Id: styles.css,v 1.1.2.2.2.1 2011/01/11 01:08:49 dvessel Exp $ */
+
+h1#site-name {
+  margin-bottom: 0;
+}
+
+#site-subheader,
+.column,
+.node,
+.comment,
+.block {
+  margin-bottom: 1.5em;
+}
+
+/*#site-header,
+#site-subheader,
+#footer-region,
+.column,
+.node,
+.comment,
+.block {
+  margin-bottom: 1.5em;
+}*/
+
+ul.main-menu,
+ul.secondary-menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fourdune di Carlo Biondetti*/
+
+body{
+  background:url('../images/gwoe-samen.png') #ffffff no-repeat top left;
+}
+
+h2{
+  color:#809538;
+  font-size:16px;
+}
+
+a{
+  color:#008080;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#009999;
+  text-decoration:none;
+}
+
+a:active{
+  color:#009999;
+  text-decoration:none;
+}
+
+td{
+  padding:5px;
+  border-bottom:dotted 0px #ccc;
+}
+
+#page{
+  background-color:none;
+}
+
+#logo img{
+  padding:8px 0 8px 0;
+}
+
+#site-header{
+  background-color:none;
+}
+
+#site-menu a{
+  color:#777777;
+  font-size:12px;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+
+#site-menu a:hover{
+  color:#808000;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+
+#site-menu a:active{
+  color:#808000;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+
+#site-subheader{
+  border-bottom:0px solid #c6d6c2;
+}
+
+#block-block-2, #block-block-2 p , #block-block-1{
+  margin-bottom:0;
+}
+
+#header-region .content{
+  margin-top:20px;
+}
+
+#search-box{
+  margin-bottom:10px;
+}
+
+#search-box ul li{
+  /* Lingue */
+  display:inline;
+  float:right;
+  margin-left:10px;
+}
+
+#footer-region{
+  display:inline;
+  float:left;
+  border-top:solid 0px #c6d6c2;
+}
+
+#main-bottom{
+  border-top:solid 0px #c6d6c2;
+  padding-top:1.5em;
+}
+
+.breadcrumb{
+  font-size:11px;
+}
+
+.views-field-title{
+  font-size:16px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+#sidebar-left ul{
+  margin-bottom:0;
+}
+
+#sidebar-left li{
+  list-style:none;
+}
+
+#sidebar-left .block h2{
+  background-color:none;
+  font-size:0px;
+  margin-bottom:3px;
+  padding:0px 0px 0px 0px;
+  color:#809538;
+}
+
+#sidebar-left .block .content{
+  background-color:none;
+  color:#777777;
+}
+
+.links{
+  display:none;
+  visibility:hidden;
+}
+
+#main-home .views-field-body{
+  text-align:justify;
+}
+
+/* News e Press */
+.view-press .views-row, .view-news .views-row{
+  border-bottom:0px dotted #ccc;
+  margin-bottom:10px;
+}
+
+.view-press .views-field-title, .view-news .views-field-title{
+  margin-bottom:5px;
+}
+
+.view-press .views-field-created, .view-news .views-field-created{
+  font-size:11px;
+  color:#777777;
+}
+
+.field-name-body  .field-item{
+  float:none;
+}
+
+.view-photogallery .views-row{
+  width:150px;
+  height:150px;
+  float:left;
+}
+
+.view-photogallery .views-field-title{
+  background:url('../images/cartella.png') no-repeat top center;
+  width:150px;
+  height:100px;
+  float:left;
+  margin-right:20px;
+  font-size:12px;
+}
+
+.view-photogallery .views-field-title .field-content{
+  position:absolute;
+  margin-top:110px;
+  width:150px;
+  text-align:center;
+}
+
+.field-name-field-gallery .field-item{
+  float:left;
+  margin-right:10px;
+}
+
+/* News Home */
+.view-news-homepage  .views-field-title{
+  padding:0 0 5px 0;
+  margin:0;
+  border-bottom:1px dotted #ccc;
+}
+
+.view-news-homepage  a{
+  font-size:12px;
+  padding:0;
+  margin:0;
+}
+
+.views-field-field-data{
+  font-size:9px;
+  padding-top:5px;
+}
+
+.view-bottoni-intestazione-centrali{
+  margin-top:40px;
+  text-align:center;
+}
+
+.view-bottoni-intestazione-centrali .views-field-title{
+  padding:0;
+  margin-bottom:5px;
+}
+
+.view-bottoni-intestazione-centrali a{
+  font-size:12px;
+  padding:3px;
+  background-color:none;
+  border:1px solid #666;
+}
+
+
+/* Tabella iscritti */
+
+table.views-table{
+  width:440px;
+  font-size:0.875em;
+}
+
+table.views-table td{
+  padding:2px;
+}
+
+th.views-field-field-nome{
+  width:240px;
+}
+
+th.views-field-field-stato{
+  width:70px;
+}
+
+th.views-field-field-bilancio{
+  width:100px;
+}
+
+th.views-field-field-web{
+  width:30px;
+}
+
+/* Custom */
+
+
